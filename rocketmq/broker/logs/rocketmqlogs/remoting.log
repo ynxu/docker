@@ -1,0 +1,405 @@
+2019-05-20 17:43:42 INFO main - Server is running in TLS permissive mode
+2019-05-20 17:43:42 INFO main - Tls config file doesn't exist, skip it
+2019-05-20 17:43:42 INFO main - Log the final used tls related configuration
+2019-05-20 17:43:42 INFO main - tls.test.mode.enable = true
+2019-05-20 17:43:42 INFO main - tls.server.need.client.auth = none
+2019-05-20 17:43:42 INFO main - tls.server.keyPath = null
+2019-05-20 17:43:42 INFO main - tls.server.keyPassword = null
+2019-05-20 17:43:42 INFO main - tls.server.certPath = null
+2019-05-20 17:43:42 INFO main - tls.server.authClient = false
+2019-05-20 17:43:42 INFO main - tls.server.trustCertPath = null
+2019-05-20 17:43:42 INFO main - tls.client.keyPath = null
+2019-05-20 17:43:42 INFO main - tls.client.keyPassword = null
+2019-05-20 17:43:42 INFO main - tls.client.certPath = null
+2019-05-20 17:43:42 INFO main - tls.client.authServer = false
+2019-05-20 17:43:42 INFO main - tls.client.trustCertPath = null
+2019-05-20 17:43:42 INFO main - Using JDK SSL provider
+2019-05-20 17:43:42 INFO main - SSLContext created for server
+2019-05-20 17:43:42 INFO main - Server is running in TLS permissive mode
+2019-05-20 17:43:42 INFO main - Tls config file doesn't exist, skip it
+2019-05-20 17:43:42 INFO main - Log the final used tls related configuration
+2019-05-20 17:43:42 INFO main - tls.test.mode.enable = true
+2019-05-20 17:43:42 INFO main - tls.server.need.client.auth = none
+2019-05-20 17:43:42 INFO main - tls.server.keyPath = null
+2019-05-20 17:43:42 INFO main - tls.server.keyPassword = null
+2019-05-20 17:43:42 INFO main - tls.server.certPath = null
+2019-05-20 17:43:42 INFO main - tls.server.authClient = false
+2019-05-20 17:43:42 INFO main - tls.server.trustCertPath = null
+2019-05-20 17:43:42 INFO main - tls.client.keyPath = null
+2019-05-20 17:43:42 INFO main - tls.client.keyPassword = null
+2019-05-20 17:43:42 INFO main - tls.client.certPath = null
+2019-05-20 17:43:42 INFO main - tls.client.authServer = false
+2019-05-20 17:43:42 INFO main - tls.client.trustCertPath = null
+2019-05-20 17:43:42 INFO main - Using JDK SSL provider
+2019-05-20 17:43:43 INFO main - SSLContext created for server
+2019-05-20 17:43:43 INFO main - name server address updated. NEW : [172.17.0.4:29876] , OLD: null
+2019-05-20 17:43:43 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-05-20 17:43:43 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-05-20 17:43:43 INFO main - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:43:43 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:43:43 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:43:43 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:43:43 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:43:43 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:43:43 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:43:43 WARN main - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@77f80c04(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2019-05-20 17:43:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:43:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:43:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@6703fc8e(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:43:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:43:53 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:43:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:43:53 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:43:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:44:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:44:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:44:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:44:23 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:44:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:44:23 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:44:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:44:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@7cdafe37(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:44:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:44:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:44:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:44:53 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:44:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:44:53 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:44:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@108f5e5(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:44:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:45:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:45:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:45:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:45:23 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:45:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:45:23 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:45:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@4c189959(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:45:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:45:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:45:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:45:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:45:53 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:45:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:45:53 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:45:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@669a7d15(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:45:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:46:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:46:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:46:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:46:23 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:46:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:46:23 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:46:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:46:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@391d5dce(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:46:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:46:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:46:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@7d3b3c38(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:46:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:46:53 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:46:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:46:53 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:46:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:47:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:47:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:47:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:47:23 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:47:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:47:23 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:47:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@5b6cefb0(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:47:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:47:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:47:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:47:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:47:53 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:47:53 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:47:53 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:47:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@4ce9f5d4(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:47:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:48:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:48:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:48:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:48:23 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:48:23 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:48:23 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:48:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:48:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@269cccbe(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:48:53 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:48:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:48:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:48:53 INFO NettyClientWorkerThread_4 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:48:53 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:48:53 INFO NettyClientWorkerThread_4 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:48:53 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@7550271e(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:48:53 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:49:23 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[172.17.0.4:29876] asynchronously
+2019-05-20 17:49:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.17.0.4:29876
+2019-05-20 17:49:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:49:23 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.17.0.4:29876] was removed from channel table
+2019-05-20 17:49:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 
+2019-05-20 17:49:23 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-05-20 17:49:23 WARN BrokerControllerScheduledThread1 - createChannel: connect remote host[172.17.0.4:29876] failed, DefaultChannelPromise@422a4ada(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /172.17.0.4:29876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2019-05-20 17:49:23 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[] result: true
+2019-05-20 17:50:06 INFO main - Server is running in TLS permissive mode
+2019-05-20 17:50:06 INFO main - Tls config file doesn't exist, skip it
+2019-05-20 17:50:06 INFO main - Log the final used tls related configuration
+2019-05-20 17:50:06 INFO main - tls.test.mode.enable = true
+2019-05-20 17:50:06 INFO main - tls.server.need.client.auth = none
+2019-05-20 17:50:06 INFO main - tls.server.keyPath = null
+2019-05-20 17:50:06 INFO main - tls.server.keyPassword = null
+2019-05-20 17:50:06 INFO main - tls.server.certPath = null
+2019-05-20 17:50:06 INFO main - tls.server.authClient = false
+2019-05-20 17:50:06 INFO main - tls.server.trustCertPath = null
+2019-05-20 17:50:06 INFO main - tls.client.keyPath = null
+2019-05-20 17:50:06 INFO main - tls.client.keyPassword = null
+2019-05-20 17:50:06 INFO main - tls.client.certPath = null
+2019-05-20 17:50:06 INFO main - tls.client.authServer = false
+2019-05-20 17:50:06 INFO main - tls.client.trustCertPath = null
+2019-05-20 17:50:06 INFO main - Using JDK SSL provider
+2019-05-20 17:50:07 INFO main - SSLContext created for server
+2019-05-20 17:50:07 INFO main - Server is running in TLS permissive mode
+2019-05-20 17:50:07 INFO main - Tls config file doesn't exist, skip it
+2019-05-20 17:50:07 INFO main - Log the final used tls related configuration
+2019-05-20 17:50:07 INFO main - tls.test.mode.enable = true
+2019-05-20 17:50:07 INFO main - tls.server.need.client.auth = none
+2019-05-20 17:50:07 INFO main - tls.server.keyPath = null
+2019-05-20 17:50:07 INFO main - tls.server.keyPassword = null
+2019-05-20 17:50:07 INFO main - tls.server.certPath = null
+2019-05-20 17:50:07 INFO main - tls.server.authClient = false
+2019-05-20 17:50:07 INFO main - tls.server.trustCertPath = null
+2019-05-20 17:50:07 INFO main - tls.client.keyPath = null
+2019-05-20 17:50:07 INFO main - tls.client.keyPassword = null
+2019-05-20 17:50:07 INFO main - tls.client.certPath = null
+2019-05-20 17:50:07 INFO main - tls.client.authServer = false
+2019-05-20 17:50:07 INFO main - tls.client.trustCertPath = null
+2019-05-20 17:50:07 INFO main - Using JDK SSL provider
+2019-05-20 17:50:07 INFO main - SSLContext created for server
+2019-05-20 17:50:07 INFO main - name server address updated. NEW : [192.168.31.226:29876] , OLD: null
+2019-05-20 17:50:07 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-05-20 17:50:07 INFO NettyEventExecutor - NettyEventExecutor service started
+2019-05-20 17:50:07 INFO main - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 17:50:07 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 17:50:08 INFO main - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@15ca7889(success)
+2019-05-20 19:10:51 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 19:10:51 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 19:10:51 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@1b194893(success)
+2019-05-20 19:51:14 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 19:51:14 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 19:51:14 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@4e60f0f7(success)
+2019-05-20 20:30:42 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 20:30:42 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 20:30:42 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@6195371b(success)
+2019-05-20 21:04:06 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 21:04:06 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 21:04:06 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@44f4b389(success)
+2019-05-20 21:34:42 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 21:34:42 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 21:34:42 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@583a02cc(success)
+2019-05-20 22:12:44 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 22:12:44 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 22:12:44 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@6e345bb9(success)
+2019-05-20 22:48:45 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 22:48:45 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 22:48:45 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@4a588549(success)
+2019-05-20 23:28:16 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-20 23:28:16 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-20 23:28:16 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@48740bf6(success)
+2019-05-21 00:03:58 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 00:03:58 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 00:03:58 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@3e3ee662(success)
+2019-05-21 00:38:22 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 00:38:22 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 00:38:22 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@3bed32a2(success)
+2019-05-21 01:16:17 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 01:16:17 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 01:16:17 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@7275b2af(success)
+2019-05-21 01:46:46 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 01:46:46 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 01:46:46 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@30b2abb8(success)
+2019-05-21 02:23:34 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 02:23:34 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 02:23:34 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@4842baf0(success)
+2019-05-21 03:03:43 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 03:03:43 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 03:03:43 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@3b52336(success)
+2019-05-21 03:37:59 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 03:37:59 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 03:37:59 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@595c41f8(success)
+2019-05-21 04:17:02 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 04:17:02 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 04:17:02 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@2ff9fe6(success)
+2019-05-21 04:50:52 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 04:50:52 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 04:50:52 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@6094aa72(success)
+2019-05-21 05:25:19 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 05:25:19 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 05:25:19 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@439a671d(success)
+2019-05-21 05:59:26 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 05:59:26 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 05:59:26 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@7b2bd476(success)
+2019-05-21 06:34:20 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 06:34:20 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 06:34:20 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@5f716ad(success)
+2019-05-21 07:13:28 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 07:13:28 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 07:13:28 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@53fdf408(success)
+2019-05-21 07:44:26 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 07:44:26 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 07:44:26 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@6ea576b6(success)
+2019-05-21 08:23:22 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 08:23:22 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 08:23:22 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@2b711260(success)
+2019-05-21 09:03:28 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 09:03:28 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 09:03:28 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@7f94c9ca(success)
+2019-05-21 09:30:39 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 09:30:39 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 09:30:39 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@247fda44(success)
+2019-05-21 12:54:59 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 12:54:59 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 12:54:59 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@6bc588e8(success)
+2019-05-21 13:26:51 INFO BrokerControllerScheduledThread1 - createChannel: begin to connect remote host[192.168.31.226:29876] asynchronously
+2019-05-21 13:26:51 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 192.168.31.226:29876
+2019-05-21 13:26:51 INFO BrokerControllerScheduledThread1 - createChannel: connect remote host[192.168.31.226:29876] success, DefaultChannelPromise@2b5131b4(success)

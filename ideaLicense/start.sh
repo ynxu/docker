@@ -1,0 +1,1 @@
+docker run --name ideaserver -p 1017:1017 -e USER="$USER" -d yx/idea-server

@@ -1,0 +1,128 @@
+2019-05-21 10:51:05 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 10:51:05 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:01:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:01:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:11:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:11:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:21:03 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:21:03 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:31:02 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:31:02 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:41:02 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:41:02 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 11:51:01 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 11:51:01 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 12:01:00 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 12:01:00 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 12:11:00 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 12:11:00 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 12:20:59 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 12:20:59 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 12:54:35 WARN NSScheduledThread1 - The broker channel expired, 192.168.31.226:10911 120000ms
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove brokerAddr[0, 192.168.31.226:10911] from brokerAddrTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 12:54:35 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.17.0.1:45186] result: true
+2019-05-21 12:54:35 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.17.0.1:45186]
+2019-05-21 12:54:35 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.17.0.1:45186]
+2019-05-21 12:54:59 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.17.0.1:45190
+2019-05-21 12:54:59 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.17.0.1:45190]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2019-05-21 12:54:59 INFO RemotingExecutorThread_3 - new broker registered, 192.168.31.226:10911 HAServer: 172.17.0.5:10912
+2019-05-21 13:26:28 WARN NSScheduledThread1 - The broker channel expired, 192.168.31.226:10911 120000ms
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove brokerAddr[0, 192.168.31.226:10911] from brokerAddrTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove brokerName[broker-a] from brokerAddrTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove brokerName[broker-a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[broker-a] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2019-05-21 13:26:28 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.17.0.1:45190] result: true
+2019-05-21 13:26:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[172.17.0.1:45190]
+2019-05-21 13:26:28 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.17.0.1:45190]
+2019-05-21 13:26:51 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.17.0.1:45194
+2019-05-21 13:26:51 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.17.0.1:45194]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, BenchmarkTest QueueData [brokerName=broker-a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, broker-a QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, TBW102 QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=broker-a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new topic registered, DefaultCluster QueueData [brokerName=broker-a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2019-05-21 13:26:51 INFO RemotingExecutorThread_5 - new broker registered, 192.168.31.226:10911 HAServer: 172.17.0.5:10912
+2019-05-21 13:32:47 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 13:32:47 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 13:42:46 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 13:42:46 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 13:52:46 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 13:52:46 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:02:45 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:02:45 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:12:44 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:12:44 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:22:43 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:22:43 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:32:43 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:32:43 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:42:42 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:42:42 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 14:52:41 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 14:52:41 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:02:41 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:02:41 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:12:40 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:12:40 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:22:39 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:22:39 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:32:39 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:32:39 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:42:38 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:42:38 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 15:52:37 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 15:52:37 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:02:37 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:02:37 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:12:36 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:12:36 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:22:35 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:22:35 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:32:34 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:32:34 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:42:34 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:42:34 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 16:52:33 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 16:52:33 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 17:02:32 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 17:02:32 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 17:12:32 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 17:12:32 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 17:22:31 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 17:22:31 INFO NSScheduledThread1 - configTable SIZE: 0
+2019-05-21 17:32:30 INFO NSScheduledThread1 - --------------------------------------------------------
+2019-05-21 17:32:30 INFO NSScheduledThread1 - configTable SIZE: 0

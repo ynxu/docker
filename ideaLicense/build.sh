@@ -1,0 +1,1 @@
+docker build -t yx/idea-server .
